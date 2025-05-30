@@ -24,24 +24,3 @@ Este repositorio contiene las soluciones a los retos semanales de programación.
 
 ---
 
-# ejemplo de un codigo documentado
-
-# Autor: Marco
-# Lenguaje: Python
-# Reto: Sumar dos números dados por el usuario
-
-def sumar_numeros(a, b):
-    """
-    Función que suma dos números.
-    :param a: primer número
-    :param b: segundo número
-    :return: suma de a y b
-    """
-    return a + b
-
-# Solicita al usuario dos números
-num1 = float(input("Ingrese el primer número: "))
-num2 = float(input("Ingrese el segundo número: "))
-
-# Imprime el resultado
-print(f"La suma es: {sumar_numeros(num1, num2)}")
